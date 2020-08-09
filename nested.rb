@@ -81,7 +81,7 @@ def adding_matz
           :languages => ["C"]
         }
      }
-programmer_hash[:sara] = "WOW!"
+programmer_hash[:sara] = {:known_for => "WOW!"
 puts programmer_hash
     
 end
