@@ -20,8 +20,6 @@ end
 
 def alan_kay_is_known_for
 
-     programmer_hash[:alan_kay][:known_for]
-     end
 
 	# What combination of keys would you use to return the value of the :known_for key of :alan_kay?
 	programmer_hash = 
@@ -34,6 +32,8 @@ def alan_kay_is_known_for
           :known_for => "Object Orientation",
           :languages => ["Smalltalk", "LISP"]
         },
+     programmer_hash[:alan_kay][:known_for]
+     end
         :dennis_ritchie => {
           :known_for => "Unix",
           :languages => ["C"]
