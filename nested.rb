@@ -82,6 +82,8 @@ def adding_matz
         }
      }
 programmer_hash[:sara] = {:known_for => "WOW!"
+                          :languages => "Arabic"}
+                          
 puts programmer_hash
     
 end
